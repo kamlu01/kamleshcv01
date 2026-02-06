@@ -1,0 +1,96 @@
+
+        body {
+             
+            background: #70b5dd;
+            margin: 0;
+            padding: 0;
+            color: #706868;
+        }
+
+    
+
+
+/* .profile {
+    text-align: right;
+} */
+
+ 
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60%;
+    object-fit: cover;
+    border: 3px solid #466475;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 50px;
+}
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(199, 18, 18, 0.1);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #151515;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        
+        header p {
+            margin: 5px 0;
+            color: #878585;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        section h2 {
+            font-size: 22px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .item {
+            margin-bottom: 15px;
+        }
+
+        .item h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        
+        .certi span{
+           background: #cec8c8;
+            padding: 6px 12px;
+            margin: 5px;
+            border-radius: 4px;
+            font-size: 14px;
+
+        }
+
+        .skills span {
+            background: #cec8c8;
+            padding: 6px 12px;
+            margin: 5px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+            margin-top: 30px;
+        }
